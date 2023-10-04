@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+.text-space-h3{
+  letter-spacing: 5px;
+}
+.icon {
+  cursor: pointer;
+  height: 3rem;
+}
+/* about section */
+
+#about{
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+#about h1{
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+.about-pic{
+    border-radius: 2rem;
+  
+}
+.details{
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  padding: 1rem;
+
+}
+#experience{
+  margin-top: 5.5rem;
+}
+#experience h1{
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+.frontend{
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  
+}
+.backend{
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+
+}
+#projects{
+  margin-top: 4.5rem;
+}
+#projects h1{
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+.projectsCol{
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+
+}
+/* Add a transition for smooth zooming effect */
+.hover img {
+  transition: transform 0.3s;
+}
+
+/* Apply the zoom effect on hover */
+.hover:hover img {
+  transform: scale(1.04); /* Adjust the scale factor as needed */
+}
+/* Add hover effect to the icon images */
+/* Add zoom effect to the icon images */
+.icon {
+  transition: transform 0.3s; /* Smooth transition for transform */
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Scale up to 120% of the original size on hover */
+}
+
+#contact{
+  margin-top: 4.5rem;
+}
+#contact h1{
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+
+#contact a:hover {
+  color: rgb(255, 52, 52);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+
+
+
+
