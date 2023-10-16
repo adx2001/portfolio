@@ -15,7 +15,7 @@ html {
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
-.text-space-h3{
+.text-space-h3 {
   letter-spacing: 5px;
 }
 .icon {
@@ -24,60 +24,55 @@ html {
 }
 /* about section */
 
-#about{
+#about {
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
-#about h1{
+#about h1 {
   letter-spacing: 3px;
   font-size: 50px;
 }
-.about-pic{
-    border-radius: 2rem;
-  
+.about-pic {
+  border-radius: 2rem;
 }
-.details{
+.details {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   padding: 1rem;
-
 }
-#experience{
+#experience {
   margin-top: 5.5rem;
 }
-#experience h1{
+#experience h1 {
   letter-spacing: 3px;
   font-size: 50px;
 }
-.frontend{
+.frontend {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  
 }
-.backend{
+.backend {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-
 }
-#projects{
+#projects {
   margin-top: 4.5rem;
 }
-#projects h1{
+#projects h1 {
   letter-spacing: 3px;
   font-size: 50px;
 }
-.projectsCol{
+.projectsCol {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-
 }
 /* Add a transition for smooth zooming effect */
 .hover img {
@@ -98,10 +93,10 @@ html {
   transform: scale(1.2); /* Scale up to 120% of the original size on hover */
 }
 
-#contact{
+#contact {
   margin-top: 4.5rem;
 }
-#contact h1{
+#contact h1 {
   letter-spacing: 3px;
   font-size: 50px;
 }
@@ -112,8 +107,32 @@ html {
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
+.cv {
+  transition: transform 0.3s;
+}
+.cv:hover {
+  transform: scale(1.1);
+}
 
+.git {
+  transition: transform 0.3s;
+}
+.git:hover {
+  transform: scale(1.1);
+}
 
-
-
+.typed-out {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2.7s forwards;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
